@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 
-import torchsparse.nn as spnn
-from torchsparse.point_tensor import PointTensor
+import torch_sparse.nn as spnn
+from torch_sparse.point_tensor import PointTensor
 
 from core.models.utils import *
 
